@@ -6,6 +6,7 @@
     <ToolCommandName>graphql-client</ToolCommandName>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <PackageType>DotnetTool</PackageType>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <RootNamespace>GraphQL.DotNet.GraphQL.Client</RootNamespace>
   </PropertyGroup>
 
