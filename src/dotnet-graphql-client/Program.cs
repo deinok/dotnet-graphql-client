@@ -7,8 +7,6 @@ namespace GraphQL.DotNet.GraphQL.Client {
     class Program {
 
         public static void Main(string[] args) {
-            args = new string[] { "-q", @"{person(personID:""1""){name}}" ,"-e", "https://swapi.apis.guru/", "-p" };
-
             var endpoint = string.Empty;
             var query = string.Empty;
             var mode = Mode.POST;
@@ -24,7 +22,7 @@ namespace GraphQL.DotNet.GraphQL.Client {
                     syntax.DefineOption("q|query", ref query, true, help: "The GraphQL Query to send");
                 }
                 {
-                    syntax.DefineOption("m|mode", ref mode, (str) => { return Mode.POST; }, help: "The GraphQL Query to send");
+                    syntax.DefineOption("m|mode", ref mode, (str) => { return Mode.POST; }, help: "The Mode to send the GraphQL");
                 }
                 {
                     syntax.DefineOption("p|pretty", ref pretty, help: "JSON pretty");
