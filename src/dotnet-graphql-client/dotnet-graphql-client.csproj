@@ -3,6 +3,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+    <ToolCommandName>graphql-client</ToolCommandName>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <PackageType>DotnetTool</PackageType>
     <RootNamespace>GraphQL.DotNet.GraphQL.Client</RootNamespace>
