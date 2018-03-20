@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FF7C79A2-AD87-4497-AC4C-47D0E242017F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-graphql-client", "dotnet-graphql-client\src\dotnet-graphql-client.csproj", "{358A2E31-DFE5-48FB-9DAF-6B0F43E3D27A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D775B0FF-D492-42E7-A3F1-BB9761B914F4}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -14,22 +12,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-graphql-client", "src\dotnet-graphql-client\dotnet-graphql-client.csproj", "{E6D9019A-662D-419F-9586-CCCE7AEFEE28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{358A2E31-DFE5-48FB-9DAF-6B0F43E3D27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{358A2E31-DFE5-48FB-9DAF-6B0F43E3D27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{358A2E31-DFE5-48FB-9DAF-6B0F43E3D27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{358A2E31-DFE5-48FB-9DAF-6B0F43E3D27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D9019A-662D-419F-9586-CCCE7AEFEE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D9019A-662D-419F-9586-CCCE7AEFEE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D9019A-662D-419F-9586-CCCE7AEFEE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D9019A-662D-419F-9586-CCCE7AEFEE28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{358A2E31-DFE5-48FB-9DAF-6B0F43E3D27A} = {FF7C79A2-AD87-4497-AC4C-47D0E242017F}
+		{E6D9019A-662D-419F-9586-CCCE7AEFEE28} = {FF7C79A2-AD87-4497-AC4C-47D0E242017F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B901F42-B0C5-4295-875D-75B696457584}
