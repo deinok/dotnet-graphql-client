@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="GraphQL.Client" Version="1.0.2" />
-    <PackageReference Include="System.CommandLine" Version="0.1.0-preview2-180320-1" />
+    <PackageReference Include="System.CommandLine" Version="1.0.0.4" />
   </ItemGroup>
 
 </Project>
